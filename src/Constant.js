@@ -2,6 +2,7 @@
 import nitk from "./assets/nitk.png";
 import Samsung from "./assets/Samsung.avif";
 import Fastenal from "./assets/Fastenal.png";
+import { DiJava } from "react-icons/di";
 import {
   SiJavascript,
   SiReact,
@@ -95,6 +96,11 @@ export const navLinks  = [
           id: "pl-3",
           icon: SiPython ,
           name: "Python",
+        },
+        {
+          id: "pl-4",
+          icon: DiJava,
+          name: "Java",
         }
       ]
     },
@@ -194,27 +200,27 @@ export const navLinks  = [
         {
           id: "t-2",
           icon: SiAmazonredshift,
-          name: "RedShift",
+          name: "AWS RedShift",
         },
         {
           id: "t-3",
           icon: SiAmazoneks,
-          name: "EKS",
+          name: "AWS EKS",
         },
         {
           id: "t-4",
           icon: SiAmazondynamodb,
-          name: "DynamoDB",
+          name: "AWS DynamoDB",
         },
         {
           id: "t-5",
           icon: SiAmazons3,
-          name: "EC",
+          name: "AWS S3",
         },
         {
           id: "t-6",
           icon: SiAwslambda,
-          name: "Lambda",
+          name: "AWS Lambda",
         },
         {
           id: "t-7",
@@ -258,7 +264,7 @@ export const navLinks  = [
           duration: "May-July 2023",
           content: [
             {
-              text: "Worked in the OnDevice AI team and spearheaded the development of a project to detect Human Activity using images and body Landmarks",
+              text: "Worked in the OnDevice AI team and spearheaded the development of a project to detect Human Activity using images and body Landmarks. Implemented lightweight model architectures like MobileNet and seamlessly integrated modifications to the base architecture of EfficientNet Lite resulting in an improved test accuracy 87 % and a reduced model size to 8 MB. This accomplishment outperformed the SOTA EfficientNet (82 %) from Tensorflow Hub.",
               link: "",
             }
           ],
