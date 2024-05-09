@@ -1,7 +1,10 @@
 
 import nitk from "./assets/nitk.png";
+import Alert from "./assets/Alert2.png";
 import Samsung from "./assets/Samsung.avif";
 import Fastenal from "./assets/Fastenal.png";
+import portfolio from "./assets/portfolio.jpg";
+import Paytm from "./assets/Paytm.png";
 import { DiJava } from "react-icons/di";
 import {
   SiJavascript,
@@ -9,6 +12,7 @@ import {
   SiPython,
   SiCplusplus,
   SiMysql,
+  SiTailwindcss,
   SiHtml5,
   SiCss3,
   SiMongodb,
@@ -39,6 +43,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
+  AiFillHtml5,
   AiFillMail,
 } from "react-icons/ai";
 
@@ -255,6 +260,23 @@ export const navLinks  = [
       ],
     },
     {
+      organisation: "Paytm",
+      logo: Paytm,
+      link: "https://paytm.com/",
+      positions: [
+        {
+          title: "Data Engineer Intern",
+          duration: "May 2024 - July 2024",
+          content: [
+            {
+              text: "",
+              link: "",
+            }
+          ],
+        },
+      ],
+    },
+    {
       organisation: "Samsung R&D Institute India Bangalore",
       logo: Samsung,
       link: "https://research.samsung.com/sri-b",
@@ -264,8 +286,12 @@ export const navLinks  = [
           duration: "May-July 2023",
           content: [
             {
-              text: "Worked in the OnDevice AI team and spearheaded the development of a project to detect Human Activity using images and body Landmarks. Implemented lightweight model architectures like MobileNet and seamlessly integrated modifications to the base architecture of EfficientNet Lite resulting in an improved test accuracy 87 % and a reduced model size to 8 MB. This accomplishment outperformed the SOTA EfficientNet (82 %) from Tensorflow Hub.",
+              text: "Worked in the OnDevice AI team and spearheaded the development of a project to detect Human Activity using images and body Landmarks.",
               link: "",
+            },
+            {
+              text: "Implemented lightweight model architectures like MobileNet and seamlessly integrated modifications to the base architecture of EfficientNet Lite resulting in an improved test accuracy 87 % and a reduced model size to 8 MB. This accomplishment outperformed the SOTA EfficientNet (82 %) from Tensorflow Hub",
+              link:"",
             }
           ],
         },
@@ -324,7 +350,7 @@ export const navLinks  = [
       title: "Object Monitoring Intelligent Video Streaming Surveillance Application",
       github: "https://github.com/Aditya-1208/SurveilHub",
       link: "",
-      image: nitk,
+      image: Alert,
       content: "Developed a centralized server-based intelligent video streaming surveillance application for object monitoring",
       stack: [
         {
@@ -347,6 +373,31 @@ export const navLinks  = [
           icon: SiDocker ,
           name: "Docker"
         }
+      ],
+    },
+    {
+      id: "project-102",
+      title: "Portfolio",
+      github: "https://github.com/PRASANNA-416/Portfolio-Website",
+      link: "https://prasanna-pm.netlify.app/",
+      image: portfolio,
+      content: "Personal portfolio website with ReactJS and Tailwind CSS.",
+      stack: [
+        {
+          id: "icon-1",
+          icon: SiReact,
+          name: "React"
+        },
+        {
+          id: "icon-2",
+          icon: SiTailwindcss,
+          name: "Tailwind CSS"
+        },
+        {
+          id: "icon-3",
+          icon: AiFillHtml5,
+          name: "HTML"
+        },
       ],
     },
   ];
